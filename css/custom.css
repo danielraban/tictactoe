@@ -1,0 +1,89 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto);
+@font-face {
+    font-family: Grandam;
+    src: url(../fonts/grandam.ttf);
+}
+body{
+    background-color:#FFF;);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h1{
+    color: #ADD8E6;
+    font-family: Grandam;
+    -moz-transform: matrix( 0.98995403220166,-0.14138958281174,0.14138958281174,0.98995403220166,0,0);
+    -webkit-transform: matrix( 0.98995403220166,-0.14138958281174,0.14138958281174,0.98995403220166,0,0);
+    -ms-transform: matrix( 0.98995403220166,-0.14138958281174,0.14138958281174,0.98995403220166,0,0);
+    font-size:100px !important;
+}
+h2 {
+  color: #ADD8E6;
+    font-family: "Roboto";
+}
+
+h4 {
+    font-family: "Roboto" !important;
+}
+h5{
+    color: #ADD8E6;
+    font-family: "Roboto";
+    font-size:24px !important;
+}
+.game{
+    width:100%;
+    display:block;
+    margin:0 auto;
+    position:relative;
+    padding-bottom:20px;
+    border:2px solid gray;
+    background-color:#ADD8E6;
+    height:auto;
+    vertical-align:center;
+    margin-top:10%;
+}
+
+.grid{    
+    height:300px;
+    background-color:#ADD8E6;
+}
+
+.left-options{
+    display:table-row;
+    padding-top:5px;
+}
+.right-options{
+    padding-top:5px;
+}
+
+.cell{    
+    height:33.3333%;
+    width:33.3333%;
+    color:black;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+    padding:20px;
+    position:relative;
+    margin: 0 auto;
+    float:left;
+    border:solid;
+    border-color:black;
+    border-width:2px;
+    border-top:none;
+    border-right:none;
+    cursor:pointer;
+     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.cell.left{   
+    border-left:none;
+}
+
+.cell.bottom{
+    border-bottom:none;
+}
